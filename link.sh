@@ -4,8 +4,9 @@ target_dotfiles=".gitconfig .zshrc"
 
 repo_dir="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 
-for dotfile in "$target_dotfiles"
+for dotfile in $target_dotfiles
 do
+  echo "ln -sf $repo_dir/$dotfile $HOME"
   ln -sf $repo_dir/$dotfile $HOME
 done
 
