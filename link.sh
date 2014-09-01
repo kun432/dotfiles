@@ -1,6 +1,6 @@
 #!/bin/bash
 
-target_dotfiles=".gitconfig"
+target_dotfiles=".gitconfig .zshrc"
 
 repo_dir="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 
