@@ -24,4 +24,3 @@ set listchars=tab:▸\ ,trail:ப,eol:↲,extends:»,precedes:«,nbsp:% " 不可
 
 set ignorecase                 "大文字小文字を区別しない
 set smartcase                  "大文字で検索されたら対象を大文字限定にする
-
