@@ -65,3 +65,13 @@ function! s:search_forward_p()
   return exists('v:searchforward') ? v:searchforward : 
 endfunction
 
+" ステータスライン
+set laststatus=2
+set statusline=%F%m%r%h%w\ [TYPE=%Y]\ [FORMAT=%{&ff}]\ [ENCODE=%{&fileencoding}]\ [POS=%l,%v][%p%%]\ [LEN=%L]
+
+" vimrc保存で自動的に反映
+augroup source-vimrc
+  autocmd!
+  autocmd BufWritePost *vimrc source $MYVIMRC | set foldmethod=marker
+  autocmd BufWritePost *gvimrc if has('gui_running') source $MYGVIMRC
+augroup END
