@@ -37,6 +37,7 @@ if has('syntax')
     augroup END
     call ZenkakuSpace()
 endif
+set cursorline                 " 現在行をハイライト
 
 set ignorecase                 " 大文字小文字を区別しない
 set smartcase                  " 大文字で検索されたら対象を大文字限定にする
@@ -75,3 +76,4 @@ augroup source-vimrc
   autocmd BufWritePost *vimrc source $MYVIMRC | set foldmethod=marker
   autocmd BufWritePost *gvimrc if has('gui_running') source $MYGVIMRC
 augroup END
+
