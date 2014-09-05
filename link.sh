@@ -1,6 +1,6 @@
 #!/bin/bash
 
-target_dotfiles=".gitconfig .zshrc .vimrc .vim"
+target_dotfiles=".gitconfig .zshrc .vimrc .vim .peco"
 
 repo_dir="$(cd "$(dirname "${BASH_SOURCE:-$0}")"; pwd)"
 
