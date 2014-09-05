@@ -80,6 +80,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export TERM=xterm-256color
+export EDITOR=vi
 
 export GOPATH=~/go
 export PATH=$PATH:$GOPATH/bin
