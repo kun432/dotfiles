@@ -60,7 +60,7 @@ helptags ~/.vim/doc            " ヘルプファイルのパス
 set helplang=ja,en             " ヘルプの表示言語の優先度
 
 " ESC,ESCで検索ハイライトを消す
-nmap <Esc><Esc> :nohlsearch<CR><Esc> 
+nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
 " 検索時、/でも?でも、nとNの方向を同じにする
 nnoremap <expr> n <SID>search_forward_p() ? 'nzv' : 'Nzv'
@@ -68,7 +68,7 @@ nnoremap <expr> N <SID>search_forward_p() ? 'Nzv' : 'nzv'
 vnoremap <expr> n <SID>search_forward_p() ? 'nzv' : 'Nzv'
 vnoremap <expr> N <SID>search_forward_p() ? 'Nzv' : 'nzv'
 function! s:search_forward_p()
-  return exists('v:searchforward') ? v:searchforward : 
+  return exists('v:searchforward') ? v:searchforward : 1
 endfunction
 
 " ステータスライン
