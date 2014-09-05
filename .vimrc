@@ -6,7 +6,7 @@ set t_Co=256                   " 256色ターミナル指定
 
 " 文字エンコーディング関連
 set encoding=utf-8                              " 内部エンコーディングをUTF-8にする
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8 " エンコーディング自動判定
+set fileencodings=utf-8,iso-2022-jp,euc-jp,sjis " エンコーディング自動判定
 set fileformats=unix,dos,mac                    " 改行コード自動判定
 
 set hidden                     " 変更中のファイルでも、保存しないで他のファイルを表示
