@@ -82,3 +82,7 @@ augroup source-vimrc
   autocmd BufWritePost *gvimrc if has('gui_running') source $MYGVIMRC
 augroup END
 
+" ペースト時にインデントさせない、かつ、インサートモードから抜けるとnopasteモードに戻る
+imap <F11> <nop>
+set pastetoggle=<F11>
+autocmd InsertLeave * set nopaste
