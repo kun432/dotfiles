@@ -102,3 +102,6 @@ zle -N peco-select-history
 bindkey '^r' peco-select-history
 
 setopt hist_ignore_all_dups
+
+export PATH="$HOME/.plenv/bin:$PATH"
+eval "$(plenv init -)"
