@@ -105,3 +105,15 @@ setopt hist_ignore_all_dups
 
 export PATH="$HOME/.plenv/bin:$PATH"
 eval "$(plenv init -)"
+
+# pandoc
+pandoc-md2html () {
+    case ${OSTYPE} in
+        darwin*)
+            pandoc -s --self-contained -t html5 -c "$HOME/.pandoc/github.css" $@
+            ;;
+        linux*)
+            pandoc -s --self-contained -t html5 -c github.css $@
+            ;;
+    esac
+}
