@@ -251,7 +251,8 @@ code, tt {
 pre code {
   margin: 0;
   padding: 0;
-  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
   border: none;
   background: transparent; }
 
