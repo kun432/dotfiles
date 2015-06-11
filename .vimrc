@@ -47,7 +47,7 @@ set cursorline                 " 現在行をハイライト
 set ignorecase                 " 大文字小文字を区別しない
 set smartcase                  " 大文字で検索されたら対象を大文字限定にする
 
-set nowrap                     " 画面の端行で折り返さない
+"set nowrap                     " 画面の端行で折り返さない
 set whichwrap=h,l              " 行末をh,lで跨いで移動
 
 set showmatch                  " 括弧を閉じたときに対応する括弧を表示する
