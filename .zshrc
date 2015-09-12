@@ -78,6 +78,10 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ls="/usr/local/bin/gls --color=auto"
+alias p="/usr/bin/env perl"
+alias r="/usr/bin/env ruby"
+eval $(/usr/local/bin/gdircolors ~/repo/dircolors-solarized/dircolors.ansi-universal)
 
 export TERM=xterm-256color
 export EDITOR=vi

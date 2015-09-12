@@ -86,3 +86,61 @@ augroup END
 imap <F11> <nop>
 set pastetoggle=<F11>
 autocmd InsertLeave * set nopaste
+
+" Neobundle
+" Note: Skip initialization for vim-tiny or vim-small.
+if 0 | endif
+
+if has('vim_starting')
+    " Required:
+    set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
+
+" Required:
+call neobundle#begin(expand('~/.vim/bundle/'))
+
+" Let NeoBundle manage NeoBundle
+" Required:
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+" My Bundles here:
+" Refer to |:NeoBundle-examples|.
+" Note: You don't set neobundle setting in .gvimrc!
+NeoBundle 'Shougo/unite.vim'    " ファイルオープンを便利にする
+NeoBundle 'Shougo/neomru.vim'   " Unite.vimで最近使ったファイルを表示
+NeoBundle 'scrooloose/nerdtree' " ファイルをツリー表示 :NERDTree
+NeoBundle 'tpope/vim-endwise'   " Ruby向けにendを自動挿入してくれる
+" コメントON/OFFをShift+V, Ctrl+- * 2回で手軽に実行
+NeoBundle 'tomtom/tcomment_vim'
+
+call neobundle#end()
+
+" Required:
+filetype plugin indent on
+
+" If there are uninstalled bundles found on startup,
+"  " this will conveniently prompt you to install them.
+NeoBundleCheck
+
+" Unit.vimの設定
+""""""""""""""""""""""""""""""
+" 入力モードで開始する
+let g:unite_enable_start_insert=1
+" バッファ一覧
+noremap <C-P> :Unite buffer<CR>
+" ファイル一覧
+noremap <C-N> :Unite -buffer-name=file file<CR>
+" 最近使ったファイルの一覧
+noremap <C-Z> :Unite file_mru<CR>
+" sourcesを「今開いているファイルのディレクトリ」とする
+noremap :uff :<C-u>UniteWithBufferDir file -buffer-name=file<CR>
+" ウィンドウを分割して開く
+au FileType unite nnoremap <silent> <buffer> <expr> <C-J> unite#do_action('split')
+au FileType unite inoremap <silent> <buffer> <expr> <C-J> unite#do_action('split')
+" ウィンドウを縦に分割して開く
+au FileType unite nnoremap <silent> <buffer> <expr> <C-K> unite#do_action('vsplit')
+au FileType unite inoremap <silent> <buffer> <expr> <C-K> unite#do_action('vsplit')
+" ESCキーを2回押すと終了する
+au FileType unite nnoremap <silent> <buffer> <ESC><ESC> :q<CR>
+au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
+
