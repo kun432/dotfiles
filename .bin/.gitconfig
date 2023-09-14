@@ -1,0 +1,24 @@
+[user]
+	email = kun432@users.noreply.github.com
+	name = Kuniaki Shimizu
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+[push]
+	default = simple
+[core]
+	precomposeunicode = true
+	quotepath = false
+[alias]
+	ch = checkout
+	co = commit
+	br = branch
+	ad = add
+	st = status
+	lo = log --graph --date=short --format=\"%C(yellow)%h%C(reset) %C(magenta)[%ad]%C(reset)%C(auto)%d%C(reset) %s %C(cyan)@%an%C(reset)\"
+	la = log --graph --date=short --format=\"%C(yellow)%h%C(reset) %C(magenta)[%ad]%C(reset)%C(auto)%d%C(reset) %s %C(cyan)@%an%C(reset)\" --all
+	sh = show
+[init]
+	defaultBranch = main
