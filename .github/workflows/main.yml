@@ -23,6 +23,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      # Tweak AWS CLI error with homebrew and macOS Image
+      - name: tweak for AWS CLI in macOS image
+        run: rm /usr/local/bin/aws
+          
       # Initialize and place dotfiles
       - name: Setup Dotfiles
         run: make
