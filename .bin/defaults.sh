@@ -23,7 +23,8 @@ defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 # ====================
 #
 # Dock
-#
+# 
+# Ref: https://ottan.jp/posts/2016/07/system-preferences-terminal-defaults-dock/
 # ====================
 
 # Disable animation at application launch
@@ -31,6 +32,15 @@ defaults write com.apple.dock launchanim -bool false
 
 # Dockを自動的に隠す
 defaults write com.apple.dock autohide -bool true
+
+# ドックのアイコンサイズ
+defaults write com.apple.dock tilesize -int 43
+
+# Dockのアイコン拡大を有効化
+defaults write com.apple.dock magnification -bool true
+
+# Dockのアイコン拡大サイズ
+defaults write com.apple.dock largesize -int 82
 
 # ====================
 #
@@ -53,6 +63,15 @@ defaults write com.apple.finder ShowPathbar -bool true
 # USBやネットワークストレージに.DS_Storeファイルを作成しない
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+
+# ====================
+#
+# SystemUIServer
+#
+# ====================
+
+# マウスのスクロールをWindowsと同じにする
+defaults write -g com.apple.swipescrolldirection -bool false
 
 # ====================
 #
