@@ -25,7 +25,7 @@ jobs:
 
       # Tweak AWS CLI error with homebrew and macOS Image
       - name: tweak for AWS CLI in macOS image
-        run: rm /usr/local/bin/aws
+        run: rm /usr/local/bin/aws && rm /usr/local/bin/aws_completer
           
       # Initialize and place dotfiles
       - name: Setup Dotfiles
