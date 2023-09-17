@@ -91,6 +91,12 @@ defaults write com.apple.screencapture name "SS_"
 # キャプチャに影を付けない
 defaults write com.apple.screencapture disable-shadow -boolean true
 
+# メニューバーに音量を表示
+#defaults write com.apple.controlcenter "NSStatusItem Visible Sound" 1
+
+# メニューバーにBluetoothを表示
+#defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" 1
+
 for app in "Dock" \
 	"Finder" \
 	"SystemUIServer"; do
