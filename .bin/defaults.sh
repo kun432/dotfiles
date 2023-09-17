@@ -83,13 +83,17 @@ defaults write -g com.apple.swipescrolldirection -bool false
 defaults write com.apple.menuextra.clock DateFormat -string 'EEE d MMM HH:mm'
 
 # キャプチャの保存場所を変更
-defaults write com.apple.screencapture location ~/Downloads
+mkdir -p ~/Desktop/キャプチャ
+defaults write com.apple.screencapture location ~/Desktop/キャプチャ
 
 # キャプチャのプレフィックスを変更
 defaults write com.apple.screencapture name "SS_"
 
 # キャプチャに影を付けない
 defaults write com.apple.screencapture disable-shadow -boolean true
+
+# キャプチャ二カーソルを表示
+defaults write com.apple.screencapture showsCursor -bool true
 
 # メニューバーに音量を表示
 #defaults write com.apple.controlcenter "NSStatusItem Visible Sound" 1
