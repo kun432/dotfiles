@@ -21,6 +21,7 @@ brew "jq"
 brew "tree"
 brew "watch"
 brew "wget"
+brew "mas"
 
 # cask
 cask "1password"
@@ -47,3 +48,6 @@ cask "vagrant"
 cask "visual-studio-code"
 cask "voicepeak"
 cask "zoom"
+
+# mas
+mas "kindle", id: 302584613
