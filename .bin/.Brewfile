@@ -48,6 +48,7 @@ cask "vagrant"
 cask "visual-studio-code"
 cask "voicepeak"
 cask "zoom"
+cask "deepl"
 
 # mas
 mas "kindle", id: 302584613
