@@ -49,6 +49,8 @@ cask "visual-studio-code"
 cask "voicepeak"
 cask "zoom"
 cask "deepl"
+cask "cursor"
 
 # mas
 mas "kindle", id: 302584613
+mas "line", id: 539883307
