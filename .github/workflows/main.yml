@@ -32,5 +32,5 @@ jobs:
         run: |
           MAS_APPS="$(cat .bin/.Brewfile | grep -v brew | grep -v "#" | grep mas | sed 's/^.*"\(.*\)".*$/\1/' | tr '\n' ' ')"
           export HOMEBREW_BUNDLE_MAS_SKIP="$MAS_APPS"
-          #export HOMEBREW_BUNDLE_BREW_SKIP="awscli go"
+          export HOMEBREW_BUNDLE_BREW_SKIP="awscli"
           make
