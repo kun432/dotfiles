@@ -5,6 +5,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "appleboy/tap"
 
 # brew
 brew "awscli"
@@ -22,6 +23,7 @@ brew "tree"
 brew "watch"
 brew "wget"
 brew "mas"
+brew "codegpt"
 
 # cask
 cask "1password"
