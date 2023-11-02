@@ -25,6 +25,7 @@ brew "wget"
 brew "mas"
 brew "codegpt"
 brew "volta"
+brew "gibo"
 
 # cask
 cask "1password"
