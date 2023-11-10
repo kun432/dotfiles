@@ -41,9 +41,11 @@
     ],
     "diffEditor.codeLens": true,
     "python.analysis.extraPaths": [
-        "/Users/kun432/.vscode/extensions/continue.continue-0.0.413-darwin-arm64"
+        "/Users/kun432/.vscode/extensions/continue.continue-0.2.0-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.5.0-darwin-arm64"
     ],
     "python.autoComplete.extraPaths": [
-        "/Users/kun432/.vscode/extensions/continue.continue-0.0.413-darwin-arm64"
+        "/Users/kun432/.vscode/extensions/continue.continue-0.2.0-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.5.0-darwin-arm64"
     ]
 }
