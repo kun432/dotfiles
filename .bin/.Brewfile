@@ -55,6 +55,7 @@ cask "zoom"
 cask "deepl"
 cask "microsoft-remote-desktop"
 cask "multipass"
+cask "lm-studio"
 
 # mas
 mas "kindle", id: 302584613
