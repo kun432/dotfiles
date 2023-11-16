@@ -53,6 +53,8 @@ cask "visual-studio-code"
 cask "voicepeak"
 cask "zoom"
 cask "deepl"
+cask "microsoft-remote-desktop"
+cask "multipass"
 
 # mas
 mas "kindle", id: 302584613
