@@ -2,9 +2,9 @@ cask_args appdir: "/Applications"
 
 # tap
 tap "homebrew/bundle"
-tap "homebrew/cask"
+#tap "homebrew/cask"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
+#tap "homebrew/core"
 tap "appleboy/tap"
 
 # brew
@@ -55,7 +55,8 @@ cask "zoom"
 cask "deepl"
 cask "microsoft-remote-desktop"
 cask "multipass"
-cask "lm-studio"
+cask "parallels-client"
+#cask "lm-studio"
 
 # mas
 mas "kindle", id: 302584613
