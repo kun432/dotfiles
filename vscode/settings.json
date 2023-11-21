@@ -44,12 +44,17 @@
         "/Users/kun432/.vscode/extensions/continue.continue-0.2.0-darwin-arm64",
         "/Users/kun432/.vscode/extensions/continue.continue-0.5.0-darwin-arm64",
         "/Users/kun432/.vscode/extensions/continue.continue-0.6.0-darwin-arm64",
-        "/Users/kun432/.vscode/extensions/continue.continue-0.7.2-darwin-arm64"
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.2-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.4-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.5-darwin-arm64"
     ],
     "python.autoComplete.extraPaths": [
         "/Users/kun432/.vscode/extensions/continue.continue-0.2.0-darwin-arm64",
         "/Users/kun432/.vscode/extensions/continue.continue-0.5.0-darwin-arm64",
         "/Users/kun432/.vscode/extensions/continue.continue-0.6.0-darwin-arm64",
-        "/Users/kun432/.vscode/extensions/continue.continue-0.7.2-darwin-arm64"
-    ]
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.2-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.4-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.5-darwin-arm64"
+    ],
+    "files.insertFinalNewline": true
 }

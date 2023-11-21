@@ -26,6 +26,9 @@ brew "mas"
 brew "codegpt"
 brew "volta"
 brew "gibo"
+brew "packer"
+brew "potrace"
+brew "imagemagick"
 
 # cask
 cask "1password"
@@ -57,6 +60,7 @@ cask "microsoft-remote-desktop"
 cask "multipass"
 cask "parallels-client"
 #cask "lm-studio"
+cask "krita"
 
 # mas
 mas "kindle", id: 302584613
