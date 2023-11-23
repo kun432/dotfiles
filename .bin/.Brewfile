@@ -60,7 +60,9 @@ cask "microsoft-remote-desktop"
 cask "multipass"
 cask "parallels-client"
 #cask "lm-studio"
+cask "blender-lts"
 cask "krita"
+cask "inkscape"
 
 # mas
 mas "kindle", id: 302584613
