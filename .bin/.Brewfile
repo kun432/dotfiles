@@ -29,6 +29,7 @@ brew "gibo"
 brew "packer"
 brew "potrace"
 brew "imagemagick"
+brew "cloudflared"
 
 # cask
 cask "1password"
@@ -60,9 +61,10 @@ cask "microsoft-remote-desktop"
 cask "multipass"
 cask "parallels-client"
 #cask "lm-studio"
-cask "blender-lts"
+#cask "blender-lts"
 cask "krita"
 cask "inkscape"
+cask "clibor"
 
 # mas
 mas "kindle", id: 302584613

@@ -58,5 +58,6 @@
         "/Users/kun432/.vscode/extensions/continue.continue-0.7.5-darwin-arm64",
         "/Users/kun432/.vscode/extensions/continue.continue-0.7.10-darwin-arm64"
     ],
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "window.zoomLevel": 2
 }
