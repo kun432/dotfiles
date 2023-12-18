@@ -47,7 +47,14 @@
         "/Users/kun432/.vscode/extensions/continue.continue-0.7.2-darwin-arm64",
         "/Users/kun432/.vscode/extensions/continue.continue-0.7.4-darwin-arm64",
         "/Users/kun432/.vscode/extensions/continue.continue-0.7.5-darwin-arm64",
-        "/Users/kun432/.vscode/extensions/continue.continue-0.7.10-darwin-arm64"
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.10-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.11-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.17-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.25-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.26-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.27-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.29-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.54-darwin-arm64"
     ],
     "python.autoComplete.extraPaths": [
         "/Users/kun432/.vscode/extensions/continue.continue-0.2.0-darwin-arm64",
@@ -56,8 +63,16 @@
         "/Users/kun432/.vscode/extensions/continue.continue-0.7.2-darwin-arm64",
         "/Users/kun432/.vscode/extensions/continue.continue-0.7.4-darwin-arm64",
         "/Users/kun432/.vscode/extensions/continue.continue-0.7.5-darwin-arm64",
-        "/Users/kun432/.vscode/extensions/continue.continue-0.7.10-darwin-arm64"
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.10-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.11-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.17-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.25-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.26-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.27-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.29-darwin-arm64",
+        "/Users/kun432/.vscode/extensions/continue.continue-0.7.54-darwin-arm64"
     ],
     "files.insertFinalNewline": true,
-    "window.zoomLevel": 2
+    "window.zoomLevel": 1,
+    "remote.autoForwardPortsSource": "hybrid"
 }
