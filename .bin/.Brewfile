@@ -30,6 +30,7 @@ brew "packer"
 brew "potrace"
 brew "imagemagick"
 brew "cloudflared"
+brew "asitop"
 
 # cask
 cask "1password"
