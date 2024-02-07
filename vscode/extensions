@@ -1,5 +1,4 @@
 alefragnani.project-manager
-Continue.continue
 IBM.output-colorizer
 MS-CEINTL.vscode-language-pack-ja
 ms-vscode-remote.remote-containers
@@ -9,4 +8,6 @@ ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.remote-explorer
 ms-vscode.remote-server
-vscodevim.vim@1.25.2
+vscodevim.vim
+GitHub.copilot
+GitHub.copilot-chat
