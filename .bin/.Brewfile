@@ -65,6 +65,7 @@ cask "parallels-client"
 cask "krita"
 cask "inkscape"
 cask "clibor"
+cask "tailscale"
 
 # mas
 mas "kindle", id: 302584613
