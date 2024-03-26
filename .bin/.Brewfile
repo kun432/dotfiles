@@ -68,6 +68,7 @@ cask "krita"
 cask "inkscape"
 cask "clibor"
 cask "tailscale"
+cask "obsidian"
 
 # mas
 mas "kindle", id: 302584613

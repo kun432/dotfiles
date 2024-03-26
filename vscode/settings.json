@@ -45,5 +45,6 @@
     "python.autoComplete.extraPaths": [
     ],
     "files.insertFinalNewline": true,
-    "remote.autoForwardPortsSource": "hybrid"
+    "remote.autoForwardPortsSource": "hybrid",
+    "excalidraw.language": "ja-JP"
 }
