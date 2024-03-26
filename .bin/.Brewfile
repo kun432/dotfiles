@@ -6,6 +6,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask-versions"
 #tap "homebrew/core"
 tap "appleboy/tap"
+tap "graelo/tap"
 
 # brew
 brew "awscli"
@@ -31,6 +32,7 @@ brew "potrace"
 brew "imagemagick"
 brew "cloudflared"
 brew "asitop"
+brew "pumas"
 
 # cask
 cask "1password"
@@ -66,6 +68,7 @@ cask "krita"
 cask "inkscape"
 cask "clibor"
 cask "tailscale"
+cask "obsidian"
 
 # mas
 mas "kindle", id: 302584613
