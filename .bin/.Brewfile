@@ -69,6 +69,7 @@ cask "inkscape"
 cask "clibor"
 cask "tailscale"
 cask "obsidian"
+cask "screen-studio"
 
 # mas
 mas "kindle", id: 302584613
