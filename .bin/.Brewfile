@@ -70,6 +70,8 @@ cask "clibor"
 cask "tailscale"
 cask "obsidian"
 cask "screen-studio"
+cask "ollama"
+cask "lm-studio"
 
 # mas
 mas "kindle", id: 302584613
