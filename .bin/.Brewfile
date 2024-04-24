@@ -33,6 +33,8 @@ brew "imagemagick"
 brew "cloudflared"
 brew "asitop"
 brew "pumas"
+brew "pyenv"
+brew "direnv"
 
 # cask
 cask "1password"
