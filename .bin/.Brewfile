@@ -35,6 +35,7 @@ brew "asitop"
 brew "pumas"
 brew "pyenv"
 brew "direnv"
+brew "flowpipe"
 
 # cask
 cask "1password"
