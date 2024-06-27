@@ -47,3 +47,6 @@ show_virtual_env() {
 }
 export -f show_virtual_env
 PS1='\n$(show_virtual_env)'$PS1
+
+alias install-jupyter='pip install -U pip jupyterlab black ruff jupyterlab-lsp python-lsp-server python-lsp-ruff jupyterlab-code-formatter jupytext jupyterlab-git nbdime ipywidgets'
+alias run-jupyter='jupyter-lab --ip="0.0.0.0" --NotebookApp.token=""'

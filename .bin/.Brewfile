@@ -36,6 +36,7 @@ brew "pumas"
 brew "pyenv"
 brew "direnv"
 brew "flowpipe"
+brew "qemu"
 
 # cask
 cask "1password"
@@ -75,6 +76,7 @@ cask "obsidian"
 cask "screen-studio"
 cask "ollama"
 cask "lm-studio"
+cask "google-cloud-sdk"
 
 # mas
 mas "kindle", id: 302584613

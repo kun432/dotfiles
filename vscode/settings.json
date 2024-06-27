@@ -40,11 +40,10 @@
         "!Split sequence"
     ],
     "diffEditor.codeLens": true,
-    "python.analysis.extraPaths": [
-    ],
-    "python.autoComplete.extraPaths": [
-    ],
+    "python.analysis.extraPaths": [],
+    "python.autoComplete.extraPaths": [],
     "files.insertFinalNewline": true,
     "remote.autoForwardPortsSource": "hybrid",
-    "excalidraw.language": "ja-JP"
+    "excalidraw.language": "ja-JP",
+    "github.copilot.editor.enableAutoCompletions": true
 }
