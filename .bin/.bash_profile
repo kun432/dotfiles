@@ -26,9 +26,9 @@ if [ -r "/usr/local/etc/profile.d/bash_completion.sh" ]; then
   source /usr/local/etc/profile.d/bash_completion.sh
 fi
 
-# volta
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
+## volta
+#export VOLTA_HOME="$HOME/.volta"
+#export PATH="$VOLTA_HOME/bin:$PATH"
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
@@ -50,3 +50,7 @@ PS1='\n$(show_virtual_env)'$PS1
 
 alias install-jupyter='pip install -U pip jupyterlab black ruff jupyterlab-lsp python-lsp-server python-lsp-ruff jupyterlab-code-formatter jupytext jupyterlab-git nbdime ipywidgets'
 alias run-jupyter='jupyter-lab --ip="0.0.0.0" --NotebookApp.token=""'
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH

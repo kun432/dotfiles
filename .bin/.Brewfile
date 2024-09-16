@@ -7,6 +7,7 @@ tap "homebrew/bundle"
 #tap "homebrew/core"
 tap "appleboy/tap"
 tap "graelo/tap"
+tap "grafana/grafana"
 
 # brew
 brew "awscli"
@@ -37,6 +38,8 @@ brew "pyenv"
 brew "direnv"
 brew "flowpipe"
 brew "qemu"
+brew "grafana/grafana/alloy"
+brew "mise"
 
 # cask
 cask "1password"
@@ -78,6 +81,11 @@ cask "ollama"
 cask "lm-studio"
 cask "google-cloud-sdk"
 cask "google-chrome@canary"
+cask "appcleaner"
+cask "clipy"
+cask "firefox"
+cask "cursor"
+cask "postman"
 
 # mas
 mas "kindle", id: 302584613
