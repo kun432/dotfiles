@@ -54,3 +54,8 @@ alias run-jupyter='jupyter-lab --ip="0.0.0.0" --NotebookApp.token=""'
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
+
+# mise
+eval "$(mise activate bash)"
+eval "$(mise activate --shims)"
+

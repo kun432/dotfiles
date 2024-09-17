@@ -86,6 +86,7 @@ cask "clipy"
 cask "firefox"
 cask "cursor"
 cask "postman"
+cask "github"
 
 # mas
 mas "kindle", id: 302584613
