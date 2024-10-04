@@ -57,5 +57,3 @@ export PATH=$BUN_INSTALL/bin:$PATH
 
 # mise
 eval "$(mise activate bash)"
-eval "$(mise activate --shims)"
-

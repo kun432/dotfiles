@@ -40,6 +40,7 @@ brew "flowpipe"
 brew "qemu"
 brew "grafana/grafana/alloy"
 brew "mise"
+brew "portaudio"
 
 # cask
 cask "1password"
@@ -87,6 +88,8 @@ cask "firefox"
 cask "cursor"
 cask "postman"
 cask "github"
+cask "drawio"
+cask "chatgpt"
 
 # mas
 mas "kindle", id: 302584613
