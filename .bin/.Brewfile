@@ -41,6 +41,8 @@ brew "qemu"
 brew "grafana/grafana/alloy"
 brew "mise"
 brew "portaudio"
+#brew "uv"
+brew "difftastic"
 
 # cask
 cask "1password"
@@ -90,6 +92,11 @@ cask "postman"
 cask "github"
 cask "drawio"
 cask "chatgpt"
+cask "blackhole-2ch"
+cask "gitbutler"
+cask "siyuan"
+cask "quarto"
+cask "bruno"
 
 # mas
 mas "kindle", id: 302584613

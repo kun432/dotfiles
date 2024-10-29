@@ -55,5 +55,9 @@ alias run-jupyter='jupyter-lab --ip="0.0.0.0" --NotebookApp.token=""'
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 
+# uv
+#eval "$(uv generate-shell-completion bash)"
+#eval "$(uvx --generate-shell-completion bash)"
+
 # mise
 eval "$(mise activate bash)"
