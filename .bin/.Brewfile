@@ -43,6 +43,9 @@ brew "mise"
 brew "portaudio"
 #brew "uv"
 brew "difftastic"
+brew "pre-commit"
+brew "lima"
+brew "mpv"
 
 # cask
 cask "1password"
@@ -97,6 +100,9 @@ cask "gitbutler"
 cask "siyuan"
 cask "quarto"
 cask "bruno"
+cask "langgraph-studio"
+cask "shottr"
+cask "raspberry-pi-imager"
 
 # mas
 mas "kindle", id: 302584613
