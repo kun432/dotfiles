@@ -41,11 +41,16 @@ brew "qemu"
 brew "grafana/grafana/alloy"
 brew "mise"
 brew "portaudio"
-#brew "uv"
+brew "uv"
 brew "difftastic"
 brew "pre-commit"
 brew "lima"
 brew "mpv"
+brew "websocat"
+brew "kind"
+brew "kubectl"
+brew "helm"
+brew "lazydocker"
 
 # cask
 cask "1password"
@@ -103,6 +108,7 @@ cask "bruno"
 cask "langgraph-studio"
 cask "shottr"
 cask "raspberry-pi-imager"
+cask "flashspace"
 
 # mas
 mas "kindle", id: 302584613
