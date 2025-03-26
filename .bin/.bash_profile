@@ -61,3 +61,6 @@ eval "$(uvx --generate-shell-completion bash)"
 
 # mise
 eval "$(mise activate bash)"
+
+# Added by Windsurf
+export PATH="/Users/kun432/.codeium/windsurf/bin:$PATH"

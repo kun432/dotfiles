@@ -51,6 +51,9 @@ brew "kind"
 brew "kubectl"
 brew "helm"
 brew "lazydocker"
+brew "dagger/tap/dagger"
+brew "pulseaudio"
+brew "opusfile"
 
 # cask
 cask "1password"
@@ -109,6 +112,11 @@ cask "langgraph-studio"
 cask "shottr"
 cask "raspberry-pi-imager"
 cask "flashspace"
+cask "superwhisper"
+cask "gitify"
+cask "cursor"
+cask "windsurf"
+cask "claude"
 
 # mas
 mas "kindle", id: 302584613
